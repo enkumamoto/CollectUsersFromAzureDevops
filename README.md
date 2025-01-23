@@ -77,8 +77,10 @@ This Python script queries the Azure DevOps API to retrieve a list of users and 
 2. Create a `.env` file in the same folder as the script and add your credentials:
 
    ```env
-   PAT=your_access_token
-   PROJECT_ID=your_project_id
+   PAT="GET_YOUR_PAT_ON_AZUREDEVOPS"
+   AUTH_GRAPH_CLIENT_ID=""
+   AUTH_GRAPH_SECRET=""
+   AUTH_GRAPH_TENANT_ID=""
    ```
 
 ## Code Explanation
